@@ -1,0 +1,27 @@
+ALGORITHM chaine_de_caractere
+VAR
+    nbmots:INTEGER:=0;
+    nbc:INTEGER:=0;
+    s:string;
+    v:CHAR:="aeiouy"
+BEGIN
+    FOR i FROM 1 TO length(s) STEP DO
+       
+           nbc:= s[i]+1;
+         
+      
+    END_FOR
+    FOR i FROM 1 TO length(s) STEP DO
+          IF (s=" ") THEN
+           nbmot:= nbmot+1
+        END_IF
+    END_FOR
+     FOR i FROM 1 TO length(s) STEP DO
+          IF InStr(v , mid(s)<>0) THEN
+           nbv:= nbv+1
+        END_IF
+    END_FOR
+      write("nbc")
+    write("nbmot")
+    write("nbv")
+END
