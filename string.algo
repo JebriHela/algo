@@ -5,6 +5,8 @@ VAR
     s:string;
     v:CHAR:="aeiouy"
 BEGIN
+ write("Give the string")
+    read(s)
     FOR i FROM 1 TO length(s) STEP DO
        
            nbc:= s[i]+1;
